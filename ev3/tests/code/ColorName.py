@@ -22,3 +22,5 @@ while not touch_sensor.is_pressed:
         s.speak(color_names[color_value])
         time.sleep(0.15)
         m.on_for_rotations(50, 0.25)
+    else:
+        s.speak("Color not in database")
